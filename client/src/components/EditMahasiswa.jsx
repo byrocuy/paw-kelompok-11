@@ -79,7 +79,7 @@ class EditMahasiswa extends Component {
 
             console.log(mahasiswa);
 
-            axios.post('https://datmas-api.herokuapp.com/update/' + id, mahasiswa)
+            axios.post('https://datmas-api.herokuapp.com//update/' + id, mahasiswa)
                 .then(res => console.log(res.data))
                 .catch(err => console.log(err));
 
